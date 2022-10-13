@@ -26,6 +26,8 @@
  
   
   <dependencies>
+
+
 		  
 		  <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
 		<dependency>
@@ -45,13 +47,7 @@
 		</dependency> -->
 
   
-		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-		<dependency>
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<version>7.6.1</version>
-			<scope>test</scope>
-		</dependency>
+	
 
 
 		<!-- https://mvnrepository.com/artifact/org.kohsuke/github-api -->

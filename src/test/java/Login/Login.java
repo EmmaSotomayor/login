@@ -2,7 +2,6 @@ package Login;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 
 public class Login extends Base {
 	
@@ -29,7 +28,7 @@ public class Login extends Base {
 		Thread.sleep(4000);
 		click(enter);
 		Thread.sleep(10000);
-		Assert.assertTrue(driver.findElement(welcome).isDisplayed());
+
 	}
 
 	
