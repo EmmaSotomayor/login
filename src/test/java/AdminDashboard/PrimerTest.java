@@ -1,4 +1,6 @@
-package Ingoing;
+package AdminDashboard;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -7,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 
 import pages.Login;
 
-class C3200_Test {
+class PrimerTest {
 
     private WebDriver driver;
     Login login;
